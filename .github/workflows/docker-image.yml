@@ -32,7 +32,7 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker build ferdog96/docker-graphql:0.0.2 .
+        docker push ferdog96/docker-graphql:0.0.2
         
         
 #     - name: Build the Docker image
